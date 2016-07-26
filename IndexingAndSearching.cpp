@@ -56,9 +56,6 @@ void printLinesOfSearchWords(vector<string>& searchWords) {
 		if (wiitr != wordIndex.end()) {
 			wordLines.push_back(wiitr->second);
 		}
-		else {
-			// one of the N Word is not available in the page.
-		}
 	}
 
 	if (wordLines.size() == 0) {
