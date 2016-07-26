@@ -16,7 +16,7 @@
 using namespace std;
 
 unordered_map<int, string> pageData;
-unordered_map<string, vector<int>> wordIndex; // Can improve this by using unordered_set than vector which searches in O(1) time and no need to check for duplicate entires.
+unordered_map<string, vector<int>> wordIndex;
 
 void addToWordIndex(string& token, int& lineNumber) {
 	auto itr = wordIndex.find(string(token));
