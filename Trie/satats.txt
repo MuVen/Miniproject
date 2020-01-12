@@ -1,0 +1,42 @@
+Enter Trie Mode. 0 - break; 1 - Normal Trie; 2 - LinkedList Trie
+1
+Inserting URLs to Normal Trie
+Insertion Time taken for 72890 URLs in Normal Trie
+It Took 582481 microseconds
+It Took 582.481 milli seconds
+It Took 0.582481 seconds
+
+
+Searching URLs in Normal Trie
+Search Time taken for 72890 URLs in Normal Trie
+It Took 173535 microseconds
+It Took 173.535 milli seconds
+It Took 0.173535 seconds
+
+
+Memory Consumed 682 MB used in Normal Trie
+----------------------------------------------------------------------------
+
+Enter Trie Mode. 0 - break; 1 - Normal Trie; 2 - LinkedList Trie
+2
+Inserting URLs to LinkedList Trie
+Insertion Time taken for 72890 URLs in LinkedList Trie
+It Took 164560 microseconds
+It Took 164.56 milli seconds
+It Took 0.164561 seconds
+
+
+Searching URLs in LinkedList Trie
+Search Time taken for 72890 URLs in LinkedList Trie
+It Took 69813 microseconds
+It Took 69.813 milli seconds
+It Took 0.0698132 seconds
+
+
+Memory Consumed 16 MB used in LinkedList Trie
+----------------------------------------------------------------------------
+
+                        NT          LLT
+insertion-72890       0.582        0.164
+search-4788           0.173        0.069
+memory                682MB        16MB
